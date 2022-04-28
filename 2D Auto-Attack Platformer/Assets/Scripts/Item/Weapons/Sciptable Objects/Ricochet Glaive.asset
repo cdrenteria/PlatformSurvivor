@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 484a0f7a7c40e1741a8460ccf56a317a, type: 3}
+  m_Name: Ricochet Glaive
+  m_EditorClassIdentifier: 
+  projectileAmount: 1
+  passThroughAmount: 2
+  projectileDamage: 0.75
+  effectiveArea: 1
+  speed: 15
+  cooldown: 4
+  itemLevel: 0
+  upgradeProgressionText:
+  - Bounces from one enemy to the next
+  - Bounces to one more enemy
+  - Bounces to one more enemy
+  id: 4
+  itemName: Ricochet Glaive
+  itemDescription: Bounces from one enemy to the next
+  itemSprite: {fileID: 0}
+  projectilePrefab: {fileID: 245257680104998782, guid: 62fdd482c701f1f459c1a66930c7b492, type: 3}
